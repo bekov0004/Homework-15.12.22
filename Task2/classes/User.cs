@@ -18,7 +18,7 @@ public class User
     }
 
     public string GetFullInfo(){
-      return $"{Firstname} {Lastname} {IsLoggedOn}";
+      return $"{Firstname} {Lastname}-{IsLoggedOn}";
     }
 
 }

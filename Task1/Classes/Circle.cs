@@ -1,20 +1,20 @@
 public class Circle
 {
-   public const double pi =3.14;
-   public double radius;
-   public string color;
+   public const double PI =3.14;
+   public double Radius;
+   public string Color;
 
    public double GetArea()
    {
     double a;
-    a = pi*radius*radius;
+    a = PI*Radius*Radius;
     return a;
    }
 
    public double  GetCircumference()
    {
       double c;
-      c = 2*pi*radius;
+      c = 2*PI*Radius;
       return c;
    }
 }

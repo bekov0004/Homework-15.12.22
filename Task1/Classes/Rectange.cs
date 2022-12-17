@@ -1,20 +1,20 @@
 public class Rectange
 {
-    public double with;
-    public double height;
-    public string color;
+    public double With;
+    public double Height;
+    public string Color;
 
     public double GetArea()
     {
           double s;
-          s = with*height;
+          s = With*Height;
           return s;
     }
 
     public double GetPerimeter()
     {
         double p;
-        p = 2*( with+ height);
+        p = 2*( With+ Height);
         return p;
     }
 }
